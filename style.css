@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+.featured-post img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
+
+.popular-places {
+  margin-top: 40px;
+}
+
+.place-card {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  vertical-align: top;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.place-card img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
